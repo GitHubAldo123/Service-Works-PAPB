@@ -1,0 +1,116 @@
+* { 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f0f2f5; 
+    color: #333; 
+} 
+ 
+.app-header { 
+    background-color:  #0f5132;; 
+    color: white; 
+    text-align: center; 
+    padding: 1rem; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+} 
+ 
+.app-header h1 { 
+margin: 0; 
+    font-size: 1.5rem; 
+} 
+ 
+.app-content { 
+    padding: 20px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+} 
+ 
+.card { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    text-align: center; 
+} 
+
+.form-group { 
+    margin-bottom: 15px; 
+    text-align: left; 
+} 
+ 
+input[type="text"], textarea { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-family: inherit; 
+} 
+ 
+.btn { 
+    background-color: #0056b3; 
+    color: white; 
+    padding: 10px 20px; 
+border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: 100%; 
+    font-size: 1rem; 
+} 
+ 
+.btn:hover { 
+    background-color: #004494; 
+} 
+ 
+.notes-container { 
+    margin-top: 30px; 
+    text-align: left; 
+} 
+ 
+#note-list { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+#note-list li { 
+    background: #f9f9f9; 
+    margin-bottom: 10px; 
+    padding: 15px; 
+    border-left: 5px solid #0056b3; 
+    border-radius: 4px;
+    } 
+#note-list h4 { 
+    margin: 0 0 5px 0; 
+    color: #0056b3; 
+} 
+#note-list p { 
+    margin: 0; 
+    font-size: 0.9rem; 
+    color: #555; 
+} 
+
+/* css/style.css (Tambahan) */ 
+.action-buttons { 
+margin-top: 10px; 
+} 
+.btn-edit, .btn-delete { 
+    padding: 5px 10px; 
+    margin-right: 5px; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-size: 0.85rem; 
+} 
+ 
+.btn-edit { 
+    background-color: #ffc107; 
+    color: #333; 
+} 
+ 
+.btn-delete { 
+    background-color: #dc3545; 
+    color: white; 
+}
