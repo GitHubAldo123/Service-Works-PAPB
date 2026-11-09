@@ -1,5 +1,5 @@
 // Nama cache beserta versinya 
-const CACHE_NAME = 'pwa-modul-v2'; 
+const CACHE_NAME = 'pwa-modul-v4'; 
  
 // Daftar file yang akan disimpan ke dalam cache (App Shell) 
 const urlsToCache = [ 
@@ -7,7 +7,9 @@ const urlsToCache = [
     '/index.html', 
     '/css/style.css', 
     '/manifest.json', 
-    '/images/icon-192x192.png', 
+    '/images/icon-192x192.png',
+    '/js/ui.js',
+    '/js/db.js',
 ]; 
  
 // Event Install: Menyimpan aset ke Cache 

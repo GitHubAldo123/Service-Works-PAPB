@@ -114,3 +114,39 @@ margin-top: 10px;
     background-color: #dc3545; 
     color: white; 
 }
+/* Gaya untuk Banner Offline */ 
+.offline-warning { 
+    background-color: #dc3545; /* Merah untuk peringatan */ 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 0.9rem; 
+    font-weight: bold; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+} 
+ 
+/* Penyesuaian Header agar tombol install sejajar */ 
+.app-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1rem 20px; 
+}
+/* Gaya untuk Tombol Install */ 
+.install-btn { 
+    background-color: #ffc107; /* Kuning agar menonjol */ 
+    color: #333; 
+    border: none; 
+    padding: 8px 15px; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+    transition: background-color 0.3s; 
+} 
+ 
+.install-btn:hover { 
+    background-color: #e0a800; 
+}
