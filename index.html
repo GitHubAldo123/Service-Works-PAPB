@@ -14,9 +14,18 @@
     <link rel="manifest" href="manifest.json"> 
 </head> 
 <body> 
+    <!-- Banner peringatan saat jaringan terputus --> 
+    <div id="offline-banner" class="offline-warning" style="display: none;"> 
+        Anda sedang dalam mode offline. Beberapa fitur mungkin terbatas. 
+    </div> 
+ 
     <header class="app-header"> 
         <h1>PWA Pertamaku</h1> 
-    </header> 
+        <!-- Tombol instalasi (disembunyikan secara default) --> 
+        <button id="install-btn" class="install-btn" style="display: none;"> 
+            Install Aplikasi 
+        </button> 
+    </header>
      
     <main class="app-content"> 
     <div class="card"> 
